@@ -355,7 +355,7 @@ function call_create($client, $time, $reason)
 * @param string $email The client's email address
 * @param integer $phone The client's phone number
 * @param string $type The client's type
-* @param string $logo_url The client's logo url
+* @param string $logo_url The client's logo url - * REMOVED FOR HEROKU DEPLOYMENT *
 * @return boolean - true if client is successfully created, false if client fails to be created in database 
 */
 function client_create($first_name, $last_name, $salesperson_id, $email, $phone, $type, $logo_url)
@@ -364,14 +364,13 @@ function client_create($first_name, $last_name, $salesperson_id, $email, $phone,
 
   // Prepared statement for creating a new client record
   $client_create_stmt = pg_prepare($conn, "client_create_stmt", "
-    INSERT INTO clients(first_name, last_name, salesperson_id, email_address, phone_number, type, logo) VALUES (
+    INSERT INTO clients(first_name, last_name, salesperson_id, email_address, phone_number, type) VALUES (
       '$first_name',
       '$last_name',
       '$salesperson_id',
       '$email',
       '$phone',
-      '$type',
-      '$logo_url'
+      '$type'
     )
   ");
 
