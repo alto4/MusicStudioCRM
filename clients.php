@@ -48,7 +48,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // FILE UPLOAD VALIDATIONS
     // Check for file upload errors
-    if (count($_FILES) > 0) {
+    /*if (count($_FILES) > 0) {
         $logo = $_FILES['logo']['name'];
 
         if ($_FILES['logo']['error'] != 0) {
@@ -62,7 +62,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $logo_url = "./logos/logo-client-$phone.jpg";
             move_uploaded_file($_FILES['logo']['tmp_name'], $logo_url);
         }
-    }
+    }*/
     // FIRST NAME VALIDATIONS
     // Verify that the client's first name was entered, and if not, display an error message
     if (!isset($first_name) || $first_name == "") {
