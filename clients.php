@@ -258,7 +258,7 @@ if ($output == "") {
             "last_name" => "Last Name",
             "salesperson_id" => "Salesperson",
             "phone_number" => "Phone Number",
-            "logo" => "Logo"
+            // "logo" => "Logo"
         ),
         client_select_all($clients_domain),
         client_count($clients_domain),

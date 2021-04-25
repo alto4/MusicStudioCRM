@@ -358,7 +358,7 @@ function call_create($client, $time, $reason)
 * @param string $logo_url The client's logo url - * REMOVED FOR HEROKU DEPLOYMENT *
 * @return boolean - true if client is successfully created, false if client fails to be created in database 
 */
-function client_create($first_name, $last_name, $salesperson_id, $email, $phone, $type, $logo_url)
+function client_create($first_name, $last_name, $salesperson_id, $email, $phone, $type)
 {
   $conn = db_connect();
 
@@ -429,7 +429,7 @@ function salesperson_create($first_name, $last_name, $email, $password, $phone, 
 
 /**
 * user_create prepared statement - creates a new user record in the users table
-* @param string $first_name The users's first name
+* @param string $first_name The users's first name    
 * @param string $last_name The users's last name
 * @param string $email The user's email address
 * @param string $password The user's password to log in
