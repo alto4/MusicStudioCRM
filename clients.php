@@ -192,14 +192,14 @@ if ($output == "") {
                     "value" => $phone,
                     "label" => "Phone Number",
                     "is_dropdown" => false
-                ),
+                )/*,
                 array(
                     "type" => "file",
                     "name" => "logo",
                     "value" => $logo,
                     "label" => "Client Logo",
                     "is_dropdown" => false
-                )
+                )*/
             )
         );
     } else {
@@ -236,14 +236,14 @@ if ($output == "") {
                     "value" => $phone,
                     "label" => "Phone Number",
                     "is_dropdown" => false
-                ),
+                )/*,
                 array(
                     "type" => "file",
                     "name" => "logo",
                     "value" => $logo,
                     "label" => "Client Logo",
                     "is_dropdown" => false
-                )
+                )*/
             )
         );
     }
