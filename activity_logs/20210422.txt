@@ -1,0 +1,8 @@
+successful sign-in event at 09:59:46 20210422. User scottalton@gmail.com successful sign-in.
+sign-out event at 10:16:23 20210422. User scottalton@gmail.com sign-out.
+unsuccessful login due to bad password event at 11:02:06 20210422. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 11:59:12 20210422. User scottalton@gmail.com successful sign-in.
+sign-out event at 11:59:32 20210422. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:24:11 20210422. User scottalton@gmail.com successful sign-in.
+sign-out event at 13:25:00 20210422. User scottalton@gmail.com sign-out.
+successful sign-in event at 13:25:06 20210422. User elmerfudd@gmail.com successful sign-in.

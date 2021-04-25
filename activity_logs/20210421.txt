@@ -1,0 +1,8 @@
+unsuccessful login due to bad password event at 10:58:27 20210421. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 10:58:33 20210421. User scottalton@gmail.com successful sign-in.
+successfully updated their account password event at 10:58:59 20210421. User scottalton@gmail.com successfully updated their account password.
+successfully sent reset email to account event at 10:59:09 20210421. User test@test.ca successfully sent reset email to account.
+unsuccessful login due to bad password event at 10:59:13 20210421. User scottalton@gmail.com unsuccessful login due to bad password.
+successful sign-in event at 10:59:18 20210421. User scottalton@gmail.com successful sign-in.
+successfully updated their account password event at 10:59:33 20210421. User scottalton@gmail.com successfully updated their account password.
+sign-out event at 10:59:36 20210421. User scottalton@gmail.com sign-out.
